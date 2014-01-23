@@ -2,17 +2,11 @@ body, h1, h2, h3, h4, h5, h6 {
   font-family: 'Ubuntu', 'Helvetica', 'Arial', sans-serif !important;
 }
 
-
 #headshot1 {
   max-width: 40%;
 }
 
-
-#headshot2 {
-  max-width: 35%;
-}
-
-#header {
+#header, #headerBG {
   background: url('/img/eschbg.png');
   background-attachment: fixed;
 }
@@ -69,3 +63,37 @@ p.ingress {
   fill: #CCE5FF;
 }
 
+path.link {
+    fill: none;
+    stroke: #666;
+    stroke-width: 1.5px;
+}
+
+marker#licensing {
+    fill: #3182bd;
+}
+
+path.link.licensing {
+    stroke: #CCCCFF;
+}
+
+path.link.resolved {
+    stroke-dasharray: 0, 2 1;
+}
+
+circle {
+    fill: #CCE5FF;
+    stroke: #333;
+    stroke-width: 1.5px;
+    cursor: pointer;
+}
+
+text.shadow {
+    stroke: #fff;
+    stroke-width: 3px;
+    stroke-opacity: .8;
+}
+
+#ball-text {
+  
+}

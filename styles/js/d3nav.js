@@ -15,7 +15,7 @@ var arcs = [
           "x": 45,
           "dy": -15,
           "text": "Github",
-          "url": "https://github.com/DeBraid"
+          "url": "https://github.com/DeBraid?tab=repositories"
         },
         {
           "id": 3,
@@ -81,7 +81,7 @@ function drawNav(){
     canvas.selectAll("text").data(arcs)
       .enter()
       .append("a")
-      .attr("xlink:href", function (d) { return d.url; }).attr("target", "_blank")
+      .attr("xlink:href", function (d) { return d.url; })
       .append("text")
       .attr("clip-path", function(d, i) { return "url(#text-clip" + i + ")"; })
       .attr("x", function(d) { return d.x; })
@@ -96,7 +96,16 @@ function drawNav(){
 
 // hide this element for tablets and mobile
 var screenWidth = window.innerWidth || document.documentElement.clientWidth;
-if (screenWidth > 1150) { drawNav(); }
+
+
+if (screenWidth > 1150) 
+{ 
+    setTimeout(function(){
+
+        drawNav();
+
+    }, 3000); 
+}
 
 // scrolling animations
 $(document).scroll(function () {
@@ -112,9 +121,5 @@ $(document).scroll(function () {
       $('#svg-nav').fadeOut(1250);
     }    
 });
-
-// $('#nav-txt2').onClick(function {
-//   $(this).text("foobar")) ;
-// };
 
 
