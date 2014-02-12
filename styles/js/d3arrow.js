@@ -44,12 +44,12 @@ d3.selectAll("#svg-arrow, .arrow, #arrow-cont")
 
           "click": function()
             { 
-              $('html, body').animate({
-                  
-                  scrollTop: $("#devocracy").offset().top
               
-              }, 1250);
+                  $('html, body').animate({
+                      
+                      scrollTop: $("#devocracy").offset().top
+                  
+                  }, 1000);
             }
-
       });
    
