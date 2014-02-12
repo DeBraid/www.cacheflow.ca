@@ -94,6 +94,10 @@ text.shadow {
     stroke-opacity: .8;
 }
 
-#ball-text {
-  
+.arrow {
+  fill: #CCE5FF;
+  stroke: #333;
+  stroke-width: 5;
 }
+
+
