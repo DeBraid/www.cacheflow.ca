@@ -100,4 +100,8 @@ text.shadow {
   stroke-width: 5;
 }
 
+#arrow-cont {
+  cursor: pointer;
+}
+
 

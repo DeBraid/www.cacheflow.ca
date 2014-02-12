@@ -28,20 +28,28 @@ d3.selectAll("#svg-arrow, .arrow, #arrow-cont")
             { 
               stem.transition().duration(500).attr('y',130),
                 
-              arrow.transition().duration(500).attr("d", function(d) { return 'M 50 240 L 200 240 L 125 300 z';}),
+              arrow.transition().duration(500).attr("d", function(d) { return 'M 50 250 L 200 250 L 125 300 z';}),
                 
               d3.selectAll(".arrow").style({"fill": "tomato", "stroke": "tomato"}) 
-            }
-      });
-   
-d3.selectAll("#svg-arrow, .arrow, #arrow-cont")
-      .on({
+            },
+
           "mouseleave": function(d,i) 
             { 
               stem.transition().duration(1250).attr('y',70),
                 
-              arrow.transition().duration(1250).attr("d", function(d) { return 'M 50 175 L 200 175 L 125 250 z';}),
+              arrow.transition().duration(1250).attr("d", function(d) { return 'M 50 160 L 200 160 L 125 240 z';}),
               
               d3.selectAll(".arrow").style({"fill": "#CCE5FF", "stroke": "#333"}) 
+            },
+
+          "click": function()
+            { 
+              $('html, body').animate({
+                  
+                  scrollTop: $("#devocracy").offset().top
+              
+              }, 1250);
             }
-       });
+
+      });
+   
