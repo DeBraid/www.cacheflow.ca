@@ -104,4 +104,13 @@ text.shadow {
   cursor: pointer;
 }
 
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
 
+.x.axis path {
+  display: none;
+}
