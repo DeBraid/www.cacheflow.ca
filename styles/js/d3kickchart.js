@@ -31,50 +31,6 @@ var svg = d3.select("#chart-svg").append("svg")
 
 console.log("foobar");
 
-var chart = function() { 
-
-  var grouped = d3.csv("kick.csv", function (error, data){ 
-
-      var ranges = d3.keys(data[0]).filter(function(key) { return key !== "Category"; });
-
-      data.forEach(function(d) {
-        d.groups = ranges.map(function(name) { return {name: name, value: +d[name]}; });
-      });
-
-      console.log("Check 10"); 
-      console.table(data);
-      console.log(data);
-      console.log("Check 20");
-
-      x0.domain(data.map(function(d) { return d.Category; }));
-      x1.domain(ranges).rangeRoundBands([0, x0.rangeBand()]);
-      y.domain([0, d3.max(data, function(d) { return d3.max(d.groups, function(d) { return d.value; }); })]);
-
-      //********** LEGEND *******************
-      
-      var legend = svg.selectAll(".legend")
-          .data(ranges.slice().reverse())
-        .enter().append("g")
-          .attr("class", "legend")
-          .attr("transform", function(d, i) { return "translate(-20," + i * 20 + ")"; });
-
-      legend.append("rect")
-          .attr("x", width - 18)
-          .attr("width", 18)
-          .attr("height", 18)
-          .style("fill", color);
-
-      legend.append("text")
-          .attr("x", width - 24)
-          .attr("y", 9)
-          .attr("dy", ".35em")
-          .style("text-anchor", "end")
-          .text(function(d) { return d; });
-
-    });
-
-};
-
   var stacked = d3.csv("kick.csv", function (error, data){ 
 
       color.domain(d3.keys(data[0]).filter(function(key){ return key !== "Category" }));
@@ -153,18 +109,4 @@ var chart = function() {
     });
 
 
-
-
-console.log("baz");
-
-
-// grouped();
-
-// stacked();
-
-// d3.selectAll("input").on("change", change);
- 
-// function change() {
-//   if (this.value === "grouped") grouped();
-//   else stacked();
-// }
+console.log("backzies");
