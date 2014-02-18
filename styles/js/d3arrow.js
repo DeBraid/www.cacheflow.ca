@@ -49,7 +49,7 @@ d3.selectAll("#svg-arrow, .arrow, #arrow-cont")
                       
                       scrollTop: $("#devocracy").offset().top
                   
-                  }, 1000);
+                  }, 100);
             }
       });
    
