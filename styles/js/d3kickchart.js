@@ -50,49 +50,6 @@ var chart = function() {
       x1.domain(ranges).rangeRoundBands([0, x0.rangeBand()]);
       y.domain([0, d3.max(data, function(d) { return d3.max(d.groups, function(d) { return d.value; }); })]);
 
-
-      //********** AXES *******************
-      
-      svg.append("g")
-          .attr("class", "x axis")
-          .attr("transform", "translate(0," + height + ")")
-          .call(xAxis)
-          .selectAll("text").style("text-anchor", "end")
-                .attr("dx", "-.8em")
-                .attr("dy", ".15em")
-                .attr("transform", function(d) {
-                    return "rotate(-45)" 
-                    });
-      
-      svg.append("g")
-          .attr("class", "y axis")
-          .attr("transform", "translate(20,0)")
-          .call(yAxis)
-        .append("text")
-          .attr("transform", "rotate(-90)")
-          .attr({"x": -150, "y": -70})
-          .attr("dy", ".75em")
-          .style("text-anchor", "end")
-          .text("# of campaigns");
-
-      //********** BARS *******************
-      console.log("bars");
-      var bars = svg.selectAll(".bars")
-          .data(data)
-        .enter().append("g")
-          .attr("class", "g")
-          .attr("transform", function(d) { return "translate(" + x0(d.Category) + ",0)"; });
-
-      bars.selectAll("rect")
-          .data(function(d) { return d.groups; })
-        .enter().append("rect")
-          .attr("width", x1.rangeBand())
-          .attr("x", function(d) { return x1(d.name); })
-          .attr("y", function(d) { return y(d.value); })
-          .attr("height", function(d) { return height - y(d.value); })
-          .style("fill", function(d) { return color(d.name); });
-
-
       //********** LEGEND *******************
       
       var legend = svg.selectAll(".legend")
