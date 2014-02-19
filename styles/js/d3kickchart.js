@@ -32,7 +32,7 @@ function dataset(){
     var yStackMax = d3.max(layers, function(layer) { return d3.max(layer, function(d) { return d.y0 + d.y; }); });
 
 var xScale = d3.scale.ordinal()
-    .domain(d3.range(13))
+    .domain(layers[0].map(function(d) { return d.x; }))
     .rangeRoundBands([0, width], .08);
 
 var y = d3.scale.linear()
