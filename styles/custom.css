@@ -114,3 +114,8 @@ text.shadow {
 .x.axis path {
   display: none;
 }
+
+.tooltip {
+  fill: blue;
+  stroke: green;
+}

@@ -1,26 +1,36 @@
-var margin = {top: 20, right: 50, bottom: 100, left: 75},
-    width = 825 - margin.left - margin.right,
-    height = 600 - margin.top - margin.bottom;
+var n = 6, // number of layers
+    m = 13, // number of samples per layer
+    
+    // pass a function to map on stack layout (in place of bumpLayer)
+    // bumpLayer = [{x: index1, y: value1},{},{},{},{},{}]
+    layers = d3.layout.stack()(d3.range(n).map(function() { return bumpLayer(m, 0.1); })),
 
-var x0 = d3.scale.ordinal()
-    .rangeRoundBands([25, width], 0.1);
+    yGroupMax = d3.max(layers, function(layer) { return d3.max(layer, function(d) { return d.y; }); }),
+    yStackMax = d3.max(layers, function(layer) { return d3.max(layer, function(d) { return d.y0 + d.y; }); });
+    console.log(layers);
+    console.log("echo ^^^ layers");
 
-var x1 = d3.scale.ordinal();
+var margin = {top: 40, right: 10, bottom: 20, left: 10},
+    width = 660 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+var xScale = d3.scale.ordinal()
+    .domain(d3.range(m))
+    .rangeRoundBands([0, width], .08);
 
 var y = d3.scale.linear()
+    .domain([0, yStackMax])
     .range([height, 0]);
 
 var color = d3.scale.ordinal()
     .range(["#98ABC5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+  
 
 var xAxis = d3.svg.axis()
-    .scale(x0)
+    .scale(xScale)
+    .tickSize(0)
+    .tickPadding(6)
     .orient("bottom");
-
-var yAxis = d3.svg.axis()
-    .scale(y)
-    .orient("left")
-    .tickFormat(d3.format(".2s"));
 
 var svg = d3.select("#chart-svg").append("svg")
     .attr("width", width + margin.left + margin.right)
@@ -28,85 +38,136 @@ var svg = d3.select("#chart-svg").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+var layer = svg.selectAll(".layer")
+    .data(layers)
+  .enter().append("g")
+    .attr("class", "layer")
+    .style("fill", function(d, i) { return color(i); });
 
-console.log("foobar");
+var rect = layer.selectAll("rect")
+    .data(function(d) { return d; })
+  .enter().append("rect")
+    .attr("x", function(d) { return xScale(d.x); })
+    .attr("y", height)
+    .attr("width", xScale.rangeBand())
+    .attr("height", 0);
 
-  var stacked = d3.csv("kick.csv", function (error, data){ 
-
-      color.domain(d3.keys(data[0]).filter(function(key){ return key !== "Category" }));
-      
-      data.forEach(function(d) {
-        var y0 = 0;
-        d.groups = color.domain().map(function(name) { return {name: name, y0: y0, y1: y0 += +d[name]}; });
-        d.total = d.groups[d.groups.length - 1].y1;
-      });
-
-      data.sort(function(a, b) { return b.total - a.total; });
-
-      x0.domain(data.map(function(d) { return d.Category; }));
-      y.domain([0, d3.max(data, function(d) { return d.total; })]);
-
-      
-      //********** AXES ************
-      svg.append("g")
-          .attr("class", "x axis")
-          .attr("transform", "translate(0," + height + ")")
-          .call(xAxis)
-          .selectAll("text").style("text-anchor", "end")
-                .attr("dx", "-.8em")
-                .attr("dy", ".15em")
-                .attr("transform", function(d) {
-                    return "rotate(-45)" 
-                    });
-      
-      svg.append("g")
-          .attr("class", "y axis")
-          .attr("transform", "translate(20,0)")
-          .call(yAxis)
-        .append("text")
-          .attr("transform", "rotate(-90)")
-          .attr({"x": -150, "y": -70})
-          .attr("dy", ".75em")
-          .style("text-anchor", "end")
-          .text("# of campaigns");
-
-      //********** BARS *******************
-      var bars = svg.selectAll(".bars")
-          .data(data)
-        .enter().append("g")
-          .attr("class", "g")
-          .attr("transform", function(d) { return "translate(" + x0(d.Category) + ",0)"; });
-
-      bars.selectAll("rect")
-          .data(function(d) { return d.groups; })
-        .enter().append("rect")
-          .attr("width", x0.rangeBand())
-          .attr("y", function(d) { return y(d.y1); })
-          .attr("height", function(d) { return y(d.y0) - y(d.y1); })
-          .style("fill", function(d) { return color(d.name); });
+rect.transition()
+    .delay(function(d, i) { return i * 10; })
+    .attr("y", function(d) { return y(d.y0 + d.y); })
+    .attr("height", function(d) { return y(d.y0) - y(d.y0 + d.y); });
 
 
-      //********** LEGEND *******************
-      var legend = svg.selectAll(".legend")
-          .data(color.domain().slice().reverse())
-        .enter().append("g")
-          .attr("class", "legend")
-          .attr("transform", function(d, i) { return "translate(-20," + i * 20 + ")"; });
+svg.append("g")
+    .attr("class", "x axis")
+    .attr("transform", "translate(0," + height + ")")
+    .call(xAxis);
 
-      legend.append("rect")
-          .attr("x", width - 18)
-          .attr("width", 18)
-          .attr("height", 18)
-          .style("fill", color);
 
-      legend.append("text")
-          .attr("x", width - 24)
-          .attr("y", 9)
-          .attr("dy", ".35em")
-          .style("text-anchor", "end")
-          .text(function(d) { return d; });
+d3.selectAll("input").on("change", change);
 
+var timeout = setTimeout(function() {
+  d3.select("input[value=\"grouped\"]").property("checked", true).each(change);
+}, 2000);
+
+function change() {
+  clearTimeout(timeout);
+  if (this.value === "grouped") transitionGrouped();
+  else transitionStacked();
+}
+
+function transitionGrouped() {
+  y.domain([0, yGroupMax]);
+
+  rect.transition()
+      .duration(500)
+      .delay(function(d, i) { return i * 10; })
+      .attr("x", function(d, i, j) { return xScale(d.x) + xScale.rangeBand() / n * j; })
+      .attr("width", xScale.rangeBand() / n)
+    .transition()
+      .attr("y", function(d) { return y(d.y); })
+      .attr("height", function(d) { return height - y(d.y); });
+
+  rect.on("mouseover", function() { tooltip.style("display", null); })
+    .on("mouseout", function() { tooltip.style("display", "none"); })
+    .on("mousemove", function(d) {
+      var xPosition = d3.mouse(this)[0] - 15;
+      var yPosition = d3.mouse(this)[1] - 25;
+      tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+      tooltip.select("text").text("hello world");
     });
+}
+
+function transitionStacked() {
+  y.domain([0, yStackMax]);
+
+  rect.transition()
+      .duration(500)
+      .delay(function(d, i) { return i * 10; })
+      .attr("y", function(d) { return y(d.y0 + d.y); })
+      .attr("height", function(d) { return y(d.y0) - y(d.y0 + d.y); })
+    .transition()
+      .attr("x", function(d) { return xScale(d.x); })
+      .attr("width", xScale.rangeBand());
+
+  rect.on("mouseover", function() { tooltip.style("display", null); })
+    .on("mouseout", function() { tooltip.style("display", "none"); })
+    .on("mousemove", function(d) {
+      var xPosition = d3.mouse(this)[0] - 15;
+      var yPosition = d3.mouse(this)[1] - 25;
+      console.log(xPosition);
+      tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+      tooltip.select("text").text("hello world");
+    });
+}
+
+// Inspired by Lee Byron's test data generator.
+function bumpLayer(n, o) {
+
+  function bump(a) {
+    var x = 1 / (.1 + Math.random()),
+        y = 2 * Math.random() - .5,
+        z = 10 / (.1 + Math.random());
+    for (var i = 0; i < n; i++) {
+      var w = (i / n - y) * z;
+      a[i] += x * Math.exp(-w * w);
+    }
+  }
+
+  var a = [], i;
+  for (i = 0; i < n; ++i) a[i] = o + o * Math.random();
+  for (i = 0; i < 5; ++i) bump(a);
+  return a.map(function(d, i) { return {x: i, y: Math.max(0, d)}; });
+}
+console.log("bumpLayer below: ");
+console.log(bumpLayer(13,0.1));
+console.table(bumpLayer(13, 0.1));
+
+function dataset(){
+  d3.csv("kick.csv", function (data){
+console.log("start test data in dataset");
+    console.log(data);
+console.log("end test data in dataset");
+  })
+}
+
+dataset();
 
 
-console.log("backzies");
+
+    // Prep the tooltip bits, initial display is hidden
+var tooltip = svg.append("g")
+  .attr("class", "tooltip");
+    
+tooltip.append("rect")
+  .attr("width", 30)
+  .attr("height", 20)
+  .attr("fill", "red")
+  .style("opacity", 0.5);
+ 
+tooltip.append("text")
+  .attr("x", 15)
+  .attr("dy", "1.2em")
+  .style("text-anchor", "middle")
+  .attr("font-size", "12px")
+  .attr("font-weight", "bold");
