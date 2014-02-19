@@ -4,7 +4,7 @@ function dataset(){
   var n = 6, // number of layers
       m = 13; // number of samples per layer
 
-  var margin = {top: 40, right: 10, bottom: 20, left: 10},
+  var margin = {top: 20, right: 50, bottom: 100, left: 75},
       width = 660 - margin.left - margin.right,
       height = 500 - margin.top - margin.bottom;
 
@@ -48,6 +48,11 @@ var xAxis = d3.svg.axis()
     .tickSize(0)
     .tickPadding(6)
     .orient("bottom");
+    
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+    .tickFormat(d3.format(".2s"));
 
 
 var layer = svg.selectAll(".layer")
@@ -69,11 +74,28 @@ rect.transition()
     .attr("y", function(d) { return y(d.y0 + d.y); })
     .attr("height", function(d) { return y(d.y0) - y(d.y0 + d.y); });
 
-
-svg.append("g")
-    .attr("class", "x axis")
-    .attr("transform", "translate(0," + height + ")")
-    .call(xAxis);
+//********** AXES ************
+      svg.append("g")
+          .attr("class", "x axis")
+          .attr("transform", "translate(0," + height + ")")
+          .call(xAxis)
+          .selectAll("text").style("text-anchor", "end")
+                .attr("dx", "-.8em")
+                .attr("dy", ".15em")
+                .attr("transform", function(d) {
+                    return "rotate(-45)" 
+                    });
+      
+      svg.append("g")
+          .attr("class", "y axis")
+          .attr("transform", "translate(20,0)")
+          .call(yAxis)
+        .append("text")
+          .attr("transform", "rotate(-90)")
+          .attr({"x": -150, "y": -70})
+          .attr("dy", ".75em")
+          .style("text-anchor", "end")
+          .text("# of campaigns");
 
 
 
