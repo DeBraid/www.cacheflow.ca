@@ -1,21 +1,38 @@
-var n = 6, // number of layers
-    m = 13, // number of samples per layer
+
+function dataset(){
+
+  var n = 6, // number of layers
+      m = 13; // number of samples per layer
+
+  var margin = {top: 40, right: 10, bottom: 20, left: 10},
+      width = 660 - margin.left - margin.right,
+      height = 500 - margin.top - margin.bottom;
+
+  var svg = d3.select("#chart-svg").append("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+
+
+  d3.csv("kick.csv", function (data){
     
-    // pass a function to map on stack layout (in place of bumpLayer)
-    // bumpLayer = [{x: index1, y: value1},{},{},{},{},{}]
-    layers = d3.layout.stack()(d3.range(n).map(function() { return bumpLayer(m, 0.1); })),
+    var headers = ["Under $1000","$1000-$9999","$10000-19999","$20000-99999","100K - $999999","Over $1 Million"]
+  
+      var layers = d3.layout.stack()(headers.map(function(priceRange) {
+            return data.map(function(d) {
+              return {x: d.Category, y: +d[priceRange]};
+            });
+      }));
+      console.log(layers);
 
-    yGroupMax = d3.max(layers, function(layer) { return d3.max(layer, function(d) { return d.y; }); }),
-    yStackMax = d3.max(layers, function(layer) { return d3.max(layer, function(d) { return d.y0 + d.y; }); });
-    console.log(layers);
-    console.log("echo ^^^ layers");
-
-var margin = {top: 40, right: 10, bottom: 20, left: 10},
-    width = 660 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+    var yGroupMax = d3.max(layers, function(layer) { return d3.max(layer, function(d) { return d.y; }); });
+    var yStackMax = d3.max(layers, function(layer) { return d3.max(layer, function(d) { return d.y0 + d.y; }); });
 
 var xScale = d3.scale.ordinal()
-    .domain(d3.range(m))
+    .domain(d3.range(13))
     .rangeRoundBands([0, width], .08);
 
 var y = d3.scale.linear()
@@ -32,11 +49,6 @@ var xAxis = d3.svg.axis()
     .tickPadding(6)
     .orient("bottom");
 
-var svg = d3.select("#chart-svg").append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-  .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 var layer = svg.selectAll(".layer")
     .data(layers)
@@ -62,6 +74,7 @@ svg.append("g")
     .attr("class", "x axis")
     .attr("transform", "translate(0," + height + ")")
     .call(xAxis);
+
 
 
 d3.selectAll("input").on("change", change);
@@ -121,38 +134,6 @@ function transitionStacked() {
     });
 }
 
-// Inspired by Lee Byron's test data generator.
-function bumpLayer(n, o) {
-
-  function bump(a) {
-    var x = 1 / (.1 + Math.random()),
-        y = 2 * Math.random() - .5,
-        z = 10 / (.1 + Math.random());
-    for (var i = 0; i < n; i++) {
-      var w = (i / n - y) * z;
-      a[i] += x * Math.exp(-w * w);
-    }
-  }
-
-  var a = [], i;
-  for (i = 0; i < n; ++i) a[i] = o + o * Math.random();
-  for (i = 0; i < 5; ++i) bump(a);
-  return a.map(function(d, i) { return {x: i, y: Math.max(0, d)}; });
-}
-console.log("bumpLayer below: ");
-console.log(bumpLayer(13,0.1));
-console.table(bumpLayer(13, 0.1));
-
-function dataset(){
-  d3.csv("kick.csv", function (data){
-console.log("start test data in dataset");
-    console.log(data);
-console.log("end test data in dataset");
-  })
-}
-
-dataset();
-
 
 
     // Prep the tooltip bits, initial display is hidden
@@ -171,3 +152,10 @@ tooltip.append("text")
   .style("text-anchor", "middle")
   .attr("font-size", "12px")
   .attr("font-weight", "bold");
+
+
+  })
+};
+
+dataset();
+
