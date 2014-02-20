@@ -14,7 +14,7 @@ var svg = d3.select("#chart-svg").append("svg")
 
 d3.csv("kick.csv", function (data){
     
-    var headers = ["Under $1000","$1000-$9999","$10000-19999","$20000-99999","100K - $999999","Over $1 Million"];
+    var headers = ["Under $1000","$1000 - 9999","$10000 - 19999","$20000 - 99999","$100K - 999999","Over $1 Million"];
     
     var layers = d3.layout.stack()(headers.map(function(priceRange) {
         return data.map(function(d) {
@@ -101,16 +101,14 @@ d3.csv("kick.csv", function (data){
             .attr("height", 18)
             .style("fill", color);
     
-        legend.selectAll("text .legend").data([headers.slice().reverse()])
+        legend.selectAll("text .legend")
+            .data([headers.slice().reverse()])
             .enter().append("text")
               .attr("x", width - 24)
               .attr("y", 9)
               .attr("dy", ".35em")
               .style("text-anchor", "end")
-              .text(function(d,i,j) { return d[j];  });
-
-          console.log(legend);
-  console.log("check above legend");
+                .text(function(d,i,j) { return d[j];  });
 
 
     d3.selectAll("input").on("change", change);
