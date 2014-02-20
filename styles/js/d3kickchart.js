@@ -9,7 +9,7 @@ var margin = {top: 20, right: 50, bottom: 100, left: 75},
 var svg = d3.select("#chart-svg").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
-  .append("g")
+    .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 d3.csv("kick.csv", function (data){
@@ -34,7 +34,7 @@ d3.csv("kick.csv", function (data){
         .range([height, 0]);
 
     var color = d3.scale.ordinal()
-        .range(["#98ABC5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+        .range(["#98ABC5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c"]);
       
     var xAxis = d3.svg.axis()
         .scale(xScale)
@@ -89,28 +89,28 @@ d3.csv("kick.csv", function (data){
         .style("text-anchor", "end")
         .text("# of campaigns");
 
-    color.domain(d3.keys(layers).filter(function(key){ return key !== "Category" }));
+    var legend = svg.selectAll(".legend")
+        .data(color.domain().slice().reverse())
+            .enter().append("g")
+            .attr("class", "legend")
+            .attr("transform", function(d, i) { return "translate(-20," + i * 20 + ")"; });
+       
+        legend.append("rect")
+            .attr("x", width - 18)
+            .attr("width", 18)
+            .attr("height", 18)
+            .style("fill", color);
+    
+        legend.selectAll("text .legend").data([headers.slice().reverse()])
+            .enter().append("text")
+              .attr("x", width - 24)
+              .attr("y", 9)
+              .attr("dy", ".35em")
+              .style("text-anchor", "end")
+              .text(function(d,i,j) { return d[j];  });
 
-      var legend = svg.selectAll(".legend")
-          .data(color.domain().slice().reverse());
           console.log(legend);
-
-      legend.enter().append("g")
-          .attr("class", "legend")
-          .attr("transform", function(d, i) { return "translate(-20," + i * 20 + ")"; });
-
-      legend.append("rect")
-          .attr("x", width - 18)
-          .attr("width", 18)
-          .attr("height", 18)
-          .style("fill", color);
-
-      legend.append("text")
-          .attr("x", width - 24)
-          .attr("y", 9)
-          .attr("dy", ".35em")
-          .style("text-anchor", "end")
-          .text(function(d) { return d; });
+  console.log("check above legend");
 
 
     d3.selectAll("input").on("change", change);
