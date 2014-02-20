@@ -21,7 +21,7 @@ d3.csv("kick.csv", function (data){
           return {x: d.Category, y: +d[priceRange]};
         });
     }));
-
+console.log(layers);
     var yGroupMax = d3.max(layers, function(layer) { return d3.max(layer, function(d) { return d.y; }); });
     var yStackMax = d3.max(layers, function(layer) { return d3.max(layer, function(d) { return d.y0 + d.y; }); });
 

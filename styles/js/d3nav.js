@@ -6,7 +6,7 @@ var arcs = [
           "x": 45,
           "dy": 45,
           "text": "About",
-          "url": "https://dbtest-palucu.backliftapp.com/cv" 
+          "url": "http://www.cacheflow.ca/cv.html" 
         },
         {
           "id": 2,
