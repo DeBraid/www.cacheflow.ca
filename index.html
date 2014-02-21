@@ -221,8 +221,38 @@
   </div>
 
     <script type="text/javascript" src="styles/js/d3nav.js"></script>
+    <script type="text/javascript">
+    
+          function downloadJSAtOnload() {
+            var element = document.createElement("script");
+            element.src = "styles/js/d3choices.js";
+            document.body.appendChild(element);
+          }
+          
+          if (window.addEventListener)
+          window.addEventListener("load", downloadJSAtOnload, false);
+          else if (window.attachEvent)
+          window.attachEvent("onload", downloadJSAtOnload);
+          else window.onload = downloadJSAtOnload;
+    </script>
+<!-- 
+    <script type="text/javascript">
+    
+          function downloadJSAtOnload() {
+            var element = document.createElement("script");
+            element.src = "styles/js/d3arrow.js";
+            document.body.appendChild(element);
+          }
+          
+          if (window.addEventListener)
+          window.addEventListener("load", downloadJSAtOnload, false);
+          else if (window.attachEvent)
+          window.attachEvent("onload", downloadJSAtOnload);
+          else window.onload = downloadJSAtOnload;
+    </script>
+ -->
     <script type="text/javascript" src="styles/js/d3arrow.js"></script>
-    <script type="text/javascript" src="styles/js/d3choices.js"></script>
+    
 
     
 
