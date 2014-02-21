@@ -34,6 +34,7 @@ console.log(layers);
         .range([height, 0]);
 
     var color = d3.scale.ordinal()
+        .domain(headers)
         .range(["#98ABC5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c"]);
       
     var xAxis = d3.svg.axis()
@@ -90,7 +91,7 @@ console.log(layers);
         .text("# of campaigns");
 
     var legend = svg.selectAll(".legend")
-        .data(color.domain().slice().reverse())
+        .data(headers.slice().reverse())
             .enter().append("g")
             .attr("class", "legend")
             .attr("transform", function(d, i) { return "translate(-20," + i * 20 + ")"; });
@@ -101,14 +102,12 @@ console.log(layers);
             .attr("height", 18)
             .style("fill", color);
     
-        legend.selectAll("text .legend")
-            .data([headers.slice().reverse()])
-            .enter().append("text")
+        legend.append("text")
               .attr("x", width - 24)
               .attr("y", 9)
               .attr("dy", ".35em")
               .style("text-anchor", "end")
-                .text(function(d,i,j) { return d[j];  });
+              .text(function(d) { return d;  });
 
 
     d3.selectAll("input").on("change", change);
