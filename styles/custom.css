@@ -119,3 +119,56 @@ text.shadow {
   fill: blue;
   stroke: green;
 }
+
+
+.line {
+  fill: none;
+    stroke: #0CD1AA;
+    stroke-width: 3px;
+}
+
+
+.plot {
+  fill: #c9c9c9;
+    opacity: 0.5; 
+}
+
+.horizontalGrid {
+  fill: none;
+    shape-rendering: crispEdges;
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-dasharray: 6,3;
+    opacity: 0.33;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.area {
+  fill: url(#temperature-gradient);
+    opacity: 0.6;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+  cursor: none;
+}
+
+.focus line {
+  fill: none;
+  stroke: black;
+}
+
+.focus text, .v, .h {
+  opacity: 0.5;
+}
