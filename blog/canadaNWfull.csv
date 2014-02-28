@@ -1,0 +1,560 @@
+Ref_Date,GEO,FINANCE,AGE,FAMILY,CHAR,Value
+1999,Canada,Total assets,All ages,All family units,Dollars,4489109
+2005,Canada,Total assets,All ages,All family units,Dollars,6395134
+2012,Canada,Total assets,All ages,All family units,Dollars,9410656
+1999,Canada,Total assets,Under 65 years,All family units,Dollars,3502669
+2005,Canada,Total assets,Under 65 years,All family units,Dollars,5037779
+2012,Canada,Total assets,Under 65 years,All family units,Dollars,7150266
+1999,Canada,Total assets,Under 35 years,All family units,Dollars,465450
+2005,Canada,Total assets,Under 35 years,All family units,Dollars,484175
+2012,Canada,Total assets,Under 35 years,All family units,Dollars,824270
+1999,Canada,Total assets,35 to 44 years,All family units,Dollars,970284
+2005,Canada,Total assets,35 to 44 years,All family units,Dollars,1320666
+2012,Canada,Total assets,35 to 44 years,All family units,Dollars,1489208
+1999,Canada,Total assets,45 to 54 years,All family units,Dollars,1160901
+2005,Canada,Total assets,45 to 54 years,All family units,Dollars,1695742
+2012,Canada,Total assets,45 to 54 years,All family units,Dollars,2336413
+1999,Canada,Total assets,55 to 64 years,All family units,Dollars,906034
+2005,Canada,Total assets,55 to 64 years,All family units,Dollars,1537196
+2012,Canada,Total assets,55 to 64 years,All family units,Dollars,2500375
+1999,Canada,Total assets,65 years and older,All family units,Dollars,986440
+2005,Canada,Total assets,65 years and older,All family units,Dollars,1357355
+2012,Canada,Total assets,65 years and older,All family units,Dollars,2260390
+1999,Canada,Private pension assets,All ages,All family units,Dollars,1309523
+2005,Canada,Private pension assets,All ages,All family units,Dollars,1856089
+2012,Canada,Private pension assets,All ages,All family units,Dollars,2829705
+1999,Canada,Private pension assets,Under 65 years,All family units,Dollars,953512
+2005,Canada,Private pension assets,Under 65 years,All family units,Dollars,1375803
+2012,Canada,Private pension assets,Under 65 years,All family units,Dollars,2034001
+1999,Canada,Private pension assets,Under 35 years,All family units,Dollars,62653
+2005,Canada,Private pension assets,Under 35 years,All family units,Dollars,57433
+2012,Canada,Private pension assets,Under 35 years,All family units,Dollars,116775
+1999,Canada,Private pension assets,35 to 44 years,All family units,Dollars,187994
+2005,Canada,Private pension assets,35 to 44 years,All family units,Dollars,219417
+2012,Canada,Private pension assets,35 to 44 years,All family units,Dollars,278434
+1999,Canada,Private pension assets,45 to 54 years,All family units,Dollars,338246
+2005,Canada,Private pension assets,45 to 54 years,All family units,Dollars,490418
+2012,Canada,Private pension assets,45 to 54 years,All family units,Dollars,690543
+1999,Canada,Private pension assets,55 to 64 years,All family units,Dollars,364619
+2005,Canada,Private pension assets,55 to 64 years,All family units,Dollars,608534
+2012,Canada,Private pension assets,55 to 64 years,All family units,Dollars,948250
+1999,Canada,Private pension assets,65 years and older,All family units,Dollars,356011
+2005,Canada,Private pension assets,65 years and older,All family units,Dollars,480286
+2012,Canada,Private pension assets,65 years and older,All family units,Dollars,795704
+1999,Canada,"Registered Retirement Savings Plans (RRSPs), Registered Retirement Income Funds (RRIFs), Locked-in Retirement Accounts (LIRAs) and other",All ages,All family units,Dollars,536422
+2005,Canada,"Registered Retirement Savings Plans (RRSPs), Registered Retirement Income Funds (RRIFs), Locked-in Retirement Accounts (LIRAs) and other",All ages,All family units,Dollars,674706
+2012,Canada,"Registered Retirement Savings Plans (RRSPs), Registered Retirement Income Funds (RRIFs), Locked-in Retirement Accounts (LIRAs) and other",All ages,All family units,Dollars,958571
+1999,Canada,"Registered Retirement Savings Plans (RRSPs), Registered Retirement Income Funds (RRIFs), Locked-in Retirement Accounts (LIRAs) and other",Under 65 years,All family units,Dollars,411733
+2005,Canada,"Registered Retirement Savings Plans (RRSPs), Registered Retirement Income Funds (RRIFs), Locked-in Retirement Accounts (LIRAs) and other",Under 65 years,All family units,Dollars,523448
+2012,Canada,"Registered Retirement Savings Plans (RRSPs), Registered Retirement Income Funds (RRIFs), Locked-in Retirement Accounts (LIRAs) and other",Under 65 years,All family units,Dollars,666995
+1999,Canada,"Registered Retirement Savings Plans (RRSPs), Registered Retirement Income Funds (RRIFs), Locked-in Retirement Accounts (LIRAs) and other",Under 35 years,All family units,Dollars,38169
+2005,Canada,"Registered Retirement Savings Plans (RRSPs), Registered Retirement Income Funds (RRIFs), Locked-in Retirement Accounts (LIRAs) and other",Under 35 years,All family units,Dollars,37080
+2012,Canada,"Registered Retirement Savings Plans (RRSPs), Registered Retirement Income Funds (RRIFs), Locked-in Retirement Accounts (LIRAs) and other",Under 35 years,All family units,Dollars,44733
+1999,Canada,"Registered Retirement Savings Plans (RRSPs), Registered Retirement Income Funds (RRIFs), Locked-in Retirement Accounts (LIRAs) and other",35 to 44 years,All family units,Dollars,99429
+2005,Canada,"Registered Retirement Savings Plans (RRSPs), Registered Retirement Income Funds (RRIFs), Locked-in Retirement Accounts (LIRAs) and other",35 to 44 years,All family units,Dollars,102881
+2012,Canada,"Registered Retirement Savings Plans (RRSPs), Registered Retirement Income Funds (RRIFs), Locked-in Retirement Accounts (LIRAs) and other",35 to 44 years,All family units,Dollars,101459
+1999,Canada,"Registered Retirement Savings Plans (RRSPs), Registered Retirement Income Funds (RRIFs), Locked-in Retirement Accounts (LIRAs) and other",45 to 54 years,All family units,Dollars,143954
+2005,Canada,"Registered Retirement Savings Plans (RRSPs), Registered Retirement Income Funds (RRIFs), Locked-in Retirement Accounts (LIRAs) and other",45 to 54 years,All family units,Dollars,192998
+2012,Canada,"Registered Retirement Savings Plans (RRSPs), Registered Retirement Income Funds (RRIFs), Locked-in Retirement Accounts (LIRAs) and other",45 to 54 years,All family units,Dollars,224756
+1999,Canada,"Registered Retirement Savings Plans (RRSPs), Registered Retirement Income Funds (RRIFs), Locked-in Retirement Accounts (LIRAs) and other",55 to 64 years,All family units,Dollars,130182
+2005,Canada,"Registered Retirement Savings Plans (RRSPs), Registered Retirement Income Funds (RRIFs), Locked-in Retirement Accounts (LIRAs) and other",55 to 64 years,All family units,Dollars,190489
+2012,Canada,"Registered Retirement Savings Plans (RRSPs), Registered Retirement Income Funds (RRIFs), Locked-in Retirement Accounts (LIRAs) and other",55 to 64 years,All family units,Dollars,296047
+1999,Canada,"Registered Retirement Savings Plans (RRSPs), Registered Retirement Income Funds (RRIFs), Locked-in Retirement Accounts (LIRAs) and other",65 years and older,All family units,Dollars,124689
+2005,Canada,"Registered Retirement Savings Plans (RRSPs), Registered Retirement Income Funds (RRIFs), Locked-in Retirement Accounts (LIRAs) and other",65 years and older,All family units,Dollars,151258
+2012,Canada,"Registered Retirement Savings Plans (RRSPs), Registered Retirement Income Funds (RRIFs), Locked-in Retirement Accounts (LIRAs) and other",65 years and older,All family units,Dollars,291576
+1999,Canada,Employer-sponsored Registered Pension Plans (EPPs),All ages,All family units,Dollars,773101
+2005,Canada,Employer-sponsored Registered Pension Plans (EPPs),All ages,All family units,Dollars,1181383
+2012,Canada,Employer-sponsored Registered Pension Plans (EPPs),All ages,All family units,Dollars,1871134
+1999,Canada,Employer-sponsored Registered Pension Plans (EPPs),Under 65 years,All family units,Dollars,541779
+2005,Canada,Employer-sponsored Registered Pension Plans (EPPs),Under 65 years,All family units,Dollars,852356
+2012,Canada,Employer-sponsored Registered Pension Plans (EPPs),Under 65 years,All family units,Dollars,1367006
+1999,Canada,Employer-sponsored Registered Pension Plans (EPPs),Under 35 years,All family units,Dollars,24484
+2005,Canada,Employer-sponsored Registered Pension Plans (EPPs),Under 35 years,All family units,Dollars,20353
+2012,Canada,Employer-sponsored Registered Pension Plans (EPPs),Under 35 years,All family units,Dollars,72041
+1999,Canada,Employer-sponsored Registered Pension Plans (EPPs),35 to 44 years,All family units,Dollars,88565
+2005,Canada,Employer-sponsored Registered Pension Plans (EPPs),35 to 44 years,All family units,Dollars,116536
+2012,Canada,Employer-sponsored Registered Pension Plans (EPPs),35 to 44 years,All family units,Dollars,176975
+1999,Canada,Employer-sponsored Registered Pension Plans (EPPs),45 to 54 years,All family units,Dollars,194293
+2005,Canada,Employer-sponsored Registered Pension Plans (EPPs),45 to 54 years,All family units,Dollars,297421
+2012,Canada,Employer-sponsored Registered Pension Plans (EPPs),45 to 54 years,All family units,Dollars,465787
+1999,Canada,Employer-sponsored Registered Pension Plans (EPPs),55 to 64 years,All family units,Dollars,234437
+2005,Canada,Employer-sponsored Registered Pension Plans (EPPs),55 to 64 years,All family units,Dollars,418045
+2012,Canada,Employer-sponsored Registered Pension Plans (EPPs),55 to 64 years,All family units,Dollars,652203
+1999,Canada,Employer-sponsored Registered Pension Plans (EPPs),65 years and older,All family units,Dollars,231322
+2005,Canada,Employer-sponsored Registered Pension Plans (EPPs),65 years and older,All family units,Dollars,329027
+2012,Canada,Employer-sponsored Registered Pension Plans (EPPs),65 years and older,All family units,Dollars,504128
+1999,Canada,"Financial assets, non pension",All ages,All family units,Dollars,554126
+2005,Canada,"Financial assets, non pension",All ages,All family units,Dollars,664900
+2012,Canada,"Financial assets, non pension",All ages,All family units,Dollars,1047214
+1999,Canada,"Financial assets, non pension",Under 65 years,All family units,Dollars,357833
+2005,Canada,"Financial assets, non pension",Under 65 years,All family units,Dollars,418088
+2012,Canada,"Financial assets, non pension",Under 65 years,All family units,Dollars,679877
+1999,Canada,"Financial assets, non pension",Under 35 years,All family units,Dollars,36684
+2005,Canada,"Financial assets, non pension",Under 35 years,All family units,Dollars,46231
+2012,Canada,"Financial assets, non pension",Under 35 years,All family units,Dollars,61725
+1999,Canada,"Financial assets, non pension",35 to 44 years,All family units,Dollars,76943
+2005,Canada,"Financial assets, non pension",35 to 44 years,All family units,Dollars,84477
+2012,Canada,"Financial assets, non pension",35 to 44 years,All family units,Dollars,100129
+1999,Canada,"Financial assets, non pension",45 to 54 years,All family units,Dollars,140147
+2005,Canada,"Financial assets, non pension",45 to 54 years,All family units,Dollars,152268
+2012,Canada,"Financial assets, non pension",45 to 54 years,All family units,Dollars,212852
+1999,Canada,"Financial assets, non pension",55 to 64 years,All family units,Dollars,104059
+2005,Canada,"Financial assets, non pension",55 to 64 years,All family units,Dollars,135112
+2012,Canada,"Financial assets, non pension",55 to 64 years,All family units,Dollars,305172
+1999,Canada,"Financial assets, non pension",65 years and older,All family units,Dollars,196294
+2005,Canada,"Financial assets, non pension",65 years and older,All family units,Dollars,246812
+2012,Canada,"Financial assets, non pension",65 years and older,All family units,Dollars,367336
+1999,Canada,Deposits in financial institutions,All ages,All family units,Dollars,207339
+2005,Canada,Deposits in financial institutions,All ages,All family units,Dollars,269929
+2012,Canada,Deposits in financial institutions,All ages,All family units,Dollars,343984
+1999,Canada,Deposits in financial institutions,Under 65 years,All family units,Dollars,112689
+2005,Canada,Deposits in financial institutions,Under 65 years,All family units,Dollars,146279
+2012,Canada,Deposits in financial institutions,Under 65 years,All family units,Dollars,213777
+1999,Canada,Deposits in financial institutions,Under 35 years,All family units,Dollars,17446
+2005,Canada,Deposits in financial institutions,Under 35 years,All family units,Dollars,21555
+2012,Canada,Deposits in financial institutions,Under 35 years,All family units,Dollars,27971
+1999,Canada,Deposits in financial institutions,35 to 44 years,All family units,Dollars,28128
+2005,Canada,Deposits in financial institutions,35 to 44 years,All family units,Dollars,22731
+2012,Canada,Deposits in financial institutions,35 to 44 years,All family units,Dollars,34790
+1999,Canada,Deposits in financial institutions,45 to 54 years,All family units,Dollars,34373
+2005,Canada,Deposits in financial institutions,45 to 54 years,All family units,Dollars,47724
+2012,Canada,Deposits in financial institutions,45 to 54 years,All family units,Dollars,61096
+1999,Canada,Deposits in financial institutions,55 to 64 years,All family units,Dollars,32741
+2005,Canada,Deposits in financial institutions,55 to 64 years,All family units,Dollars,54268
+2012,Canada,Deposits in financial institutions,55 to 64 years,All family units,Dollars,89920
+1999,Canada,Deposits in financial institutions,65 years and older,All family units,Dollars,94650
+2005,Canada,Deposits in financial institutions,65 years and older,All family units,Dollars,123651
+2012,Canada,Deposits in financial institutions,65 years and older,All family units,Dollars,130207
+1999,Canada,"Mutual funds, investment funds  and income trusts",All ages,All family units,Dollars,103102
+2005,Canada,"Mutual funds, investment funds  and income trusts",All ages,All family units,Dollars,152129
+2012,Canada,"Mutual funds, investment funds  and income trusts",All ages,All family units,Dollars,239468
+1999,Canada,"Mutual funds, investment funds  and income trusts",Under 65 years,All family units,Dollars,72623
+2005,Canada,"Mutual funds, investment funds  and income trusts",Under 65 years,All family units,Dollars,107409
+2012,Canada,"Mutual funds, investment funds  and income trusts",Under 65 years,All family units,Dollars,152560
+1999,Canada,"Mutual funds, investment funds  and income trusts",Under 35 years,All family units,Dollars,5375
+2005,Canada,"Mutual funds, investment funds  and income trusts",Under 35 years,All family units,Dollars,6948
+2012,Canada,"Mutual funds, investment funds  and income trusts",Under 35 years,All family units,Dollars,7387
+1999,Canada,"Mutual funds, investment funds  and income trusts",35 to 44 years,All family units,Dollars,14256
+2005,Canada,"Mutual funds, investment funds  and income trusts",35 to 44 years,All family units,Dollars,19375
+2012,Canada,"Mutual funds, investment funds  and income trusts",35 to 44 years,All family units,Dollars,17404
+1999,Canada,"Mutual funds, investment funds  and income trusts",45 to 54 years,All family units,Dollars,26855
+2005,Canada,"Mutual funds, investment funds  and income trusts",45 to 54 years,All family units,Dollars,51165
+2012,Canada,"Mutual funds, investment funds  and income trusts",45 to 54 years,All family units,Dollars,51865
+1999,Canada,"Mutual funds, investment funds  and income trusts",55 to 64 years,All family units,Dollars,26136
+2005,Canada,"Mutual funds, investment funds  and income trusts",55 to 64 years,All family units,Dollars,29920
+2012,Canada,"Mutual funds, investment funds  and income trusts",55 to 64 years,All family units,Dollars,75904
+1999,Canada,"Mutual funds, investment funds  and income trusts",65 years and older,All family units,Dollars,30479
+2005,Canada,"Mutual funds, investment funds  and income trusts",65 years and older,All family units,Dollars,44720
+2012,Canada,"Mutual funds, investment funds  and income trusts",65 years and older,All family units,Dollars,86908
+1999,Canada,Stocks,All ages,All family units,Dollars,117919
+2005,Canada,Stocks,All ages,All family units,Dollars,117222
+2012,Canada,Stocks,All ages,All family units,Dollars,204864
+1999,Canada,Stocks,Under 65 years,All family units,Dollars,79609
+2005,Canada,Stocks,Under 65 years,All family units,Dollars,70338
+2012,Canada,Stocks,Under 65 years,All family units,Dollars,127985
+1999,Canada,Stocks,Under 35 years,All family units,Dollars,5751
+2005,Canada,Stocks,Under 35 years,All family units,Dollars,3819
+2012,Canada,Stocks,Under 35 years,All family units,Dollars,F
+1999,Canada,Stocks,35 to 44 years,All family units,Dollars,9929
+2005,Canada,Stocks,35 to 44 years,All family units,Dollars,F
+2012,Canada,Stocks,35 to 44 years,All family units,Dollars,14101
+1999,Canada,Stocks,45 to 54 years,All family units,Dollars,42179
+2005,Canada,Stocks,45 to 54 years,All family units,Dollars,24782
+2012,Canada,Stocks,45 to 54 years,All family units,Dollars,41034
+1999,Canada,Stocks,55 to 64 years,All family units,Dollars,21749
+2005,Canada,Stocks,55 to 64 years,All family units,Dollars,27700
+2012,Canada,Stocks,55 to 64 years,All family units,Dollars,63316
+1999,Canada,Stocks,65 years and older,All family units,Dollars,38309
+2005,Canada,Stocks,65 years and older,All family units,Dollars,46883
+2012,Canada,Stocks,65 years and older,All family units,Dollars,76879
+1999,Canada,Bonds (saving and other),All ages,All family units,Dollars,33172
+2005,Canada,Bonds (saving and other),All ages,All family units,Dollars,39375
+2012,Canada,Bonds (saving and other),All ages,All family units,Dollars,24378
+1999,Canada,Bonds (saving and other),Under 65 years,All family units,Dollars,17141
+2005,Canada,Bonds (saving and other),Under 65 years,All family units,Dollars,22434
+2012,Canada,Bonds (saving and other),Under 65 years,All family units,Dollars,13679
+1999,Canada,Bonds (saving and other),Under 35 years,All family units,Dollars,1108
+2005,Canada,Bonds (saving and other),Under 35 years,All family units,Dollars,F
+2012,Canada,Bonds (saving and other),Under 35 years,All family units,Dollars,686
+1999,Canada,Bonds (saving and other),35 to 44 years,All family units,Dollars,3262
+2005,Canada,Bonds (saving and other),35 to 44 years,All family units,Dollars,F
+2012,Canada,Bonds (saving and other),35 to 44 years,All family units,Dollars,1880
+1999,Canada,Bonds (saving and other),45 to 54 years,All family units,Dollars,5296
+2005,Canada,Bonds (saving and other),45 to 54 years,All family units,Dollars,3241
+2012,Canada,Bonds (saving and other),45 to 54 years,All family units,Dollars,3870
+1999,Canada,Bonds (saving and other),55 to 64 years,All family units,Dollars,7474
+2005,Canada,Bonds (saving and other),55 to 64 years,All family units,Dollars,F
+2012,Canada,Bonds (saving and other),55 to 64 years,All family units,Dollars,7243
+1999,Canada,Bonds (saving and other),65 years and older,All family units,Dollars,16032
+2005,Canada,Bonds (saving and other),65 years and older,All family units,Dollars,16941
+2012,Canada,Bonds (saving and other),65 years and older,All family units,Dollars,F
+1999,Canada,Tax Free Saving Accounts (TFSA),All ages,All family units,Dollars,..
+2005,Canada,Tax Free Saving Accounts (TFSA),All ages,All family units,Dollars,..
+2012,Canada,Tax Free Saving Accounts (TFSA),All ages,All family units,Dollars,65939
+1999,Canada,Tax Free Saving Accounts (TFSA),Under 65 years,All family units,Dollars,..
+2005,Canada,Tax Free Saving Accounts (TFSA),Under 65 years,All family units,Dollars,..
+2012,Canada,Tax Free Saving Accounts (TFSA),Under 65 years,All family units,Dollars,42281
+1999,Canada,Tax Free Saving Accounts (TFSA),Under 35 years,All family units,Dollars,..
+2005,Canada,Tax Free Saving Accounts (TFSA),Under 35 years,All family units,Dollars,..
+2012,Canada,Tax Free Saving Accounts (TFSA),Under 35 years,All family units,Dollars,7403
+19971997,Canada,Tax Free Saving Accounts (TFSA),35 to 44 years,All family units,Dollars,..
+2005,Canada,Tax Free Saving Accounts (TFSA),35 to 44 years,All family units,Dollars,..
+2012,Canada,Tax Free Saving Accounts (TFSA),35 to 44 years,All family units,Dollars,6928
+1999,Canada,Tax Free Saving Accounts (TFSA),65 years and older,All family units,Dollars,..
+2005,Canada,Tax Free Saving Accounts (TFSA),65 years and older,All family units,Dollars,..
+2012,Canada,Tax Free Saving Accounts (TFSA),65 years and older,All family units,Dollars,23659
+1999,Canada,Other financial assets,All ages,All family units,Dollars,92595
+2005,Canada,Other financial assets,All ages,All family units,Dollars,86246
+2012,Canada,Other financial assets,All ages,All family units,Dollars,168580
+1999,Canada,Other financial assets,Under 65 years,All family units,Dollars,75771
+2005,Canada,Other financial assets,Under 65 years,All family units,Dollars,71629
+2012,Canada,Other financial assets,Under 65 years,All family units,Dollars,129596
+1999,Canada,Other financial assets,Under 35 years,All family units,Dollars,7003
+2005,Canada,Other financial assets,Under 35 years,All family units,Dollars,F
+2012,Canada,Other financial assets,Under 35 years,All family units,Dollars,8744
+1999,Canada,Other financial assets,35 to 44 years,All family units,Dollars,21367
+2005,Canada,Other financial assets,35 to 44 years,All family units,Dollars,25307
+2012,Canada,Other financial assets,35 to 44 years,All family units,Dollars,25027
+1999,Canada,Other financial assets,45 to 54 years,All family units,Dollars,31443
+2005,Canada,Other financial assets,45 to 54 years,All family units,Dollars,25355
+2012,Canada,Other financial assets,45 to 54 years,All family units,Dollars,43013
+1999,Canada,Other financial assets,55 to 64 years,All family units,Dollars,15958
+2005,Canada,Other financial assets,55 to 64 years,All family units,Dollars,F
+2012,Canada,Other financial assets,55 to 64 years,All family units,Dollars,52812
+1999,Canada,Other financial assets,65 years and older,All family units,Dollars,16823
+2005,Canada,Other financial assets,65 years and older,All family units,Dollars,14617
+2012,Canada,Other financial assets,65 years and older,All family units,Dollars,38985
+1999,Canada,Non-financial assets,All ages,All family units,Dollars,2176597
+2005,Canada,Non-financial assets,All ages,All family units,Dollars,3203286
+2012,Canada,Non-financial assets,All ages,All family units,Dollars,4744580
+1999,Canada,Non-financial assets,Under 65 years,All family units,Dollars,1782752
+2005,Canada,Non-financial assets,Under 65 years,All family units,Dollars,2617765
+2012,Canada,Non-financial assets,Under 65 years,All family units,Dollars,3749566
+1999,Canada,Non-financial assets,Under 35 years,All family units,Dollars,316209
+2005,Canada,Non-financial assets,Under 35 years,All family units,Dollars,360117
+2012,Canada,Non-financial assets,Under 35 years,All family units,Dollars,558452
+1999,Canada,Non-financial assets,35 to 44 years,All family units,Dollars,558735
+2005,Canada,Non-financial assets,35 to 44 years,All family units,Dollars,863936
+2012,Canada,Non-financial assets,35 to 44 years,All family units,Dollars,989847
+1999,Canada,Non-financial assets,45 to 54 years,All family units,Dollars,553414
+2005,Canada,Non-financial assets,45 to 54 years,All family units,Dollars,797363
+2012,Canada,Non-financial assets,45 to 54 years,All family units,Dollars,1166758
+1999,Canada,Non-financial assets,55 to 64 years,All family units,Dollars,354394
+2005,Canada,Non-financial assets,55 to 64 years,All family units,Dollars,596350
+2012,Canada,Non-financial assets,55 to 64 years,All family units,Dollars,1034511
+1999,Canada,Non-financial assets,65 years and older,All family units,Dollars,393844
+2005,Canada,Non-financial assets,65 years and older,All family units,Dollars,585521
+2012,Canada,Non-financial assets,65 years and older,All family units,Dollars,995014
+1999,Canada,Principal residence,All ages,All family units,Dollars,1418971
+2005,Canada,Principal residence,All ages,All family units,Dollars,2137890
+2012,Canada,Principal residence,All ages,All family units,Dollars,3254275
+1999,Canada,Principal residence,Under 65 years,All family units,Dollars,1147198
+2005,Canada,Principal residence,Under 65 years,All family units,Dollars,1724373
+2012,Canada,Principal residence,Under 65 years,All family units,Dollars,2560228
+1999,Canada,Principal residence,Under 35 years,All family units,Dollars,201798
+2005,Canada,Principal residence,Under 35 years,All family units,Dollars,242750
+2012,Canada,Principal residence,Under 35 years,All family units,Dollars,381198
+1999,Canada,Principal residence,35 to 44 years,All family units,Dollars,367112
+2005,Canada,Principal residence,35 to 44 years,All family units,Dollars,547754
+2012,Canada,Principal residence,35 to 44 years,All family units,Dollars,675251
+1999,Canada,Principal residence,45 to 54 years,All family units,Dollars,357400
+2005,Canada,Principal residence,45 to 54 years,All family units,Dollars,544937
+2012,Canada,Principal residence,45 to 54 years,All family units,Dollars,803131
+1999,Canada,Principal residence,55 to 64 years,All family units,Dollars,220888
+2005,Canada,Principal residence,55 to 64 years,All family units,Dollars,388933
+2012,Canada,Principal residence,55 to 64 years,All family units,Dollars,700648
+1999,Canada,Principal residence,65 years and older,All family units,Dollars,271773
+2005,Canada,Principal residence,65 years and older,All family units,Dollars,413517
+2012,Canada,Principal residence,65 years and older,All family units,Dollars,694048
+1999,Canada,Other real estate,All ages,All family units,Dollars,302863
+2005,Canada,Other real estate,All ages,All family units,Dollars,546886
+2012,Canada,Other real estate,All ages,All family units,Dollars,931762
+1999,Canada,Other real estate,Under 65 years,All family units,Dollars,251205
+2005,Canada,Other real estate,Under 65 years,All family units,Dollars,457000
+2012,Canada,Other real estate,Under 65 years,All family units,Dollars,737913
+1999,Canada,Other real estate,Under 35 years,All family units,Dollars,36388
+2005,Canada,Other real estate,Under 35 years,All family units,Dollars,43183
+2012,Canada,Other real estate,Under 35 years,All family units,Dollars,93948
+1999,Canada,Other real estate,35 to 44 years,All family units,Dollars,66208
+2005,Canada,Other real estate,35 to 44 years,All family units,Dollars,F
+2012,Canada,Other real estate,35 to 44 years,All family units,Dollars,205911
+1999,Canada,Other real estate,45 to 54 years,All family units,Dollars,84921
+2005,Canada,Other real estate,45 to 54 years,All family units,Dollars,119335
+2012,Canada,Other real estate,45 to 54 years,All family units,Dollars,228577
+1999,Canada,Other real estate,55 to 64 years,All family units,Dollars,63688
+2005,Canada,Other real estate,55 to 64 years,All family units,Dollars,104733
+2012,Canada,Other real estate,55 to 64 years,All family units,Dollars,209476
+1999,Canada,Other real estate,65 years and older,All family units,Dollars,51658
+2005,Canada,Other real estate,65 years and older,All family units,Dollars,89885
+2012,Canada,Other real estate,65 years and older,All family units,Dollars,193850
+1999,Canada,Vehicles,All ages,All family units,Dollars,161343
+2005,Canada,Vehicles,All ages,All family units,Dollars,194726
+2012,Canada,Vehicles,All ages,All family units,Dollars,245520
+1999,Canada,Vehicles,Under 65 years,All family units,Dollars,138032
+2005,Canada,Vehicles,Under 65 years,All family units,Dollars,168931
+2012,Canada,Vehicles,Under 65 years,All family units,Dollars,205189
+1999,Canada,Vehicles,Under 35 years,All family units,Dollars,30452
+2005,Canada,Vehicles,Under 35 years,All family units,Dollars,31770
+2012,Canada,Vehicles,Under 35 years,All family units,Dollars,39627
+1999,Canada,Vehicles,35 to 44 years,All family units,Dollars,43065
+2005,Canada,Vehicles,35 to 44 years,All family units,Dollars,45706
+2012,Canada,Vehicles,35 to 44 years,All family units,Dollars,50841
+1999,Canada,Vehicles,45 to 54 years,All family units,Dollars,39093
+2005,Canada,Vehicles,45 to 54 years,All family units,Dollars,52699
+2012,Canada,Vehicles,45 to 54 years,All family units,Dollars,61203
+1999,Canada,Vehicles,55 to 64 years,All family units,Dollars,25421
+2005,Canada,Vehicles,55 to 64 years,All family units,Dollars,38757
+2012,Canada,Vehicles,55 to 64 years,All family units,Dollars,53518
+1999,Canada,Vehicles,65 years and older,All family units,Dollars,23311
+2005,Canada,Vehicles,65 years and older,All family units,Dollars,25795
+2012,Canada,Vehicles,65 years and older,All family units,Dollars,40331
+1999,Canada,Other non-financial assets,All ages,All family units,Dollars,293420
+2005,Canada,Other non-financial assets,All ages,All family units,Dollars,323785
+2012,Canada,Other non-financial assets,All ages,All family units,Dollars,313023
+1999,Canada,Other non-financial assets,Under 65 years,All family units,Dollars,246317
+2005,Canada,Other non-financial assets,Under 65 years,All family units,Dollars,267461
+2012,Canada,Other non-financial assets,Under 65 years,All family units,Dollars,246237
+1999,Canada,Other non-financial assets,Under 35 years,All family units,Dollars,47571
+2005,Canada,Other non-financial assets,Under 35 years,All family units,Dollars,42415
+2012,Canada,Other non-financial assets,Under 35 years,All family units,Dollars,43678
+1999,Canada,Other non-financial assets,35 to 44 years,All family units,Dollars,82350
+2005,Canada,Other non-financial assets,35 to 44 years,All family units,Dollars,80726
+2012,Canada,Other non-financial assets,35 to 44 years,All family units,Dollars,57843
+1999,Canada,Other non-financial assets,45 to 54 years,All family units,Dollars,72000
+2005,Canada,Other non-financial assets,45 to 54 years,All family units,Dollars,80393
+2012,Canada,Other non-financial assets,45 to 54 years,All family units,Dollars,73846
+1999,Canada,Other non-financial assets,55 to 64 years,All family units,Dollars,44397
+2005,Canada,Other non-financial assets,55 to 64 years,All family units,Dollars,63928
+2012,Canada,Other non-financial assets,55 to 64 years,All family units,Dollars,70869
+1999,Canada,Other non-financial assets,65 years and older,All family units,Dollars,47103
+2005,Canada,Other non-financial assets,65 years and older,All family units,Dollars,56324
+2012,Canada,Other non-financial assets,65 years and older,All family units,Dollars,66786
+1999,Canada,Equity in business,All ages,All family units,Dollars,448863
+2005,Canada,Equity in business,All ages,All family units,Dollars,670859
+2012,Canada,Equity in business,All ages,All family units,Dollars,789158
+1999,Canada,Equity in business,Under 65 years,All family units,Dollars,408572
+2005,Canada,Equity in business,Under 65 years,All family units,Dollars,626122
+2012,Canada,Equity in business,Under 65 years,All family units,Dollars,686822
+1999,Canada,Equity in business,Under 35 years,All family units,Dollars,49904
+2005,Canada,Equity in business,Under 35 years,All family units,Dollars,20394
+2012,Canada,Equity in business,Under 35 years,All family units,Dollars,87319
+1999,Canada,Equity in business,35 to 44 years,All family units,Dollars,146611
+2005,Canada,Equity in business,35 to 44 years,All family units,Dollars,152836
+2012,Canada,Equity in business,35 to 44 years,All family units,Dollars,120799
+1999,Canada,Equity in business,45 to 54 years,All family units,Dollars,129093
+2005,Canada,Equity in business,45 to 54 years,All family units,Dollars,255693
+2012,Canada,Equity in business,45 to 54 years,All family units,Dollars,266261
+1999,Canada,Equity in business,55 to 64 years,All family units,Dollars,82964
+2005,Canada,Equity in business,55 to 64 years,All family units,Dollars,F
+2012,Canada,Equity in business,55 to 64 years,All family units,Dollars,212443
+1999,Canada,Equity in business,65 years and older,All family units,Dollars,40292
+2005,Canada,Equity in business,65 years and older,All family units,Dollars,44737
+2012,Canada,Equity in business,65 years and older,All family units,Dollars,102336
+1999,Canada,Total debts,All ages,All family units,Dollars,586095
+2005,Canada,Total debts,All ages,All family units,Dollars,864625
+2012,Canada,Total debts,All ages,All family units,Dollars,1337071
+1999,Canada,Total debts,Under 65 years,All family units,Dollars,566502
+2005,Canada,Total debts,Under 65 years,All family units,Dollars,833914
+2012,Canada,Total debts,Under 65 years,All family units,Dollars,1257911
+1999,Canada,Total debts,Under 35 years,All family units,Dollars,156428
+2005,Canada,Total debts,Under 35 years,All family units,Dollars,190782
+2012,Canada,Total debts,Under 35 years,All family units,Dollars,300327
+1999,Canada,Total debts,35 to 44 years,All family units,Dollars,206442
+2005,Canada,Total debts,35 to 44 years,All family units,Dollars,312596
+2012,Canada,Total debts,35 to 44 years,All family units,Dollars,433036
+1999,Canada,Total debts,45 to 54 years,All family units,Dollars,150229
+2005,Canada,Total debts,45 to 54 years,All family units,Dollars,224265
+2012,Canada,Total debts,45 to 54 years,All family units,Dollars,322372
+1999,Canada,Total debts,55 to 64 years,All family units,Dollars,53403
+2005,Canada,Total debts,55 to 64 years,All family units,Dollars,106271
+2012,Canada,Total debts,55 to 64 years,All family units,Dollars,202177
+1999,Canada,Total debts,65 years and older,All family units,Dollars,19593
+2005,Canada,Total debts,65 years and older,All family units,Dollars,30711
+2012,Canada,Total debts,65 years and older,All family units,Dollars,79160
+1999,Canada,Mortgages,All ages,All family units,Dollars,453557
+2005,Canada,Mortgages,All ages,All family units,Dollars,650751
+2012,Canada,Mortgages,All ages,All family units,Dollars,1029811
+1999,Canada,Mortgages,Under 65 years,All family units,Dollars,440188
+2005,Canada,Mortgages,Under 65 years,All family units,Dollars,633161
+2012,Canada,Mortgages,Under 65 years,All family units,Dollars,983962
+1999,Canada,Mortgages,Under 35 years,All family units,Dollars,119077
+2005,Canada,Mortgages,Under 35 years,All family units,Dollars,140844
+2012,Canada,Mortgages,Under 35 years,All family units,Dollars,240181
+1999,Canada,Mortgages,35 to 44 years,All family units,Dollars,167321
+2005,Canada,Mortgages,35 to 44 years,All family units,Dollars,256278
+2012,Canada,Mortgages,35 to 44 years,All family units,Dollars,361345
+1999,Canada,Mortgages,45 to 54 years,All family units,Dollars,114395
+2005,Canada,Mortgages,45 to 54 years,All family units,Dollars,162117
+2012,Canada,Mortgages,45 to 54 years,All family units,Dollars,243574
+1999,Canada,Mortgages,55 to 64 years,All family units,Dollars,39395
+2005,Canada,Mortgages,55 to 64 years,All family units,Dollars,73922
+2012,Canada,Mortgages,55 to 64 years,All family units,Dollars,138863
+1999,Canada,Mortgages,65 years and older,All family units,Dollars,13369
+2005,Canada,Mortgages,65 years and older,All family units,Dollars,17589
+2012,Canada,Mortgages,65 years and older,All family units,Dollars,45849
+1999,Canada,Principal residence,All ages,All family units,Dollars,388119
+2005,Canada,Principal residence,All ages,All family units,Dollars,552849
+2012,Canada,Principal residence,All ages,All family units,Dollars,821010
+1999,Canada,Principal residence,Under 65 years,All family units,Dollars,378479
+2005,Canada,Principal residence,Under 65 years,All family units,Dollars,540884
+2012,Canada,Principal residence,Under 65 years,All family units,Dollars,789278
+1999,Canada,Principal residence,Under 35 years,All family units,Dollars,109342
+2005,Canada,Principal residence,Under 35 years,All family units,Dollars,130059
+2012,Canada,Principal residence,Under 35 years,All family units,Dollars,202629
+1999,Canada,Principal residence,35 to 44 years,All family units,Dollars,149113
+2005,Canada,Principal residence,35 to 44 years,All family units,Dollars,221969
+2012,Canada,Principal residence,35 to 44 years,All family units,Dollars,287701
+1999,Canada,Principal residence,45 to 54 years,All family units,Dollars,91213
+2005,Canada,Principal residence,45 to 54 years,All family units,Dollars,136094
+2012,Canada,Principal residence,45 to 54 years,All family units,Dollars,195479
+1999,Canada,Principal residence,55 to 64 years,All family units,Dollars,28812
+2005,Canada,Principal residence,55 to 64 years,All family units,Dollars,52762
+2012,Canada,Principal residence,55 to 64 years,All family units,Dollars,103470
+1999,Canada,Principal residence,65 years and older,All family units,Dollars,9640
+2005,Canada,Principal residence,65 years and older,All family units,Dollars,11966
+2012,Canada,Principal residence,65 years and older,All family units,Dollars,31732
+1999,Canada,Other real estate,All ages,All family units,Dollars,65438
+2005,Canada,Other real estate,All ages,All family units,Dollars,97901
+2012,Canada,Other real estate,All ages,All family units,Dollars,208801
+1999,Canada,Other real estate,Under 65 years,All family units,Dollars,61709
+2005,Canada,Other real estate,Under 65 years,All family units,Dollars,92278
+2012,Canada,Other real estate,Under 65 years,All family units,Dollars,194684
+1999,Canada,Other real estate,Under 35 years,All family units,Dollars,9735
+2005,Canada,Other real estate,Under 35 years,All family units,Dollars,10786
+2012,Canada,Other real estate,Under 35 years,All family units,Dollars,37552
+1999,Canada,Other real estate,35 to 44 years,All family units,Dollars,18208
+2005,Canada,Other real estate,35 to 44 years,All family units,Dollars,34309
+2012,Canada,Other real estate,35 to 44 years,All family units,Dollars,73644
+1999,Canada,Other real estate,45 to 54 years,All family units,Dollars,23182
+2005,Canada,Other real estate,45 to 54 years,All family units,Dollars,26023
+2012,Canada,Other real estate,45 to 54 years,All family units,Dollars,48095
+1999,Canada,Other real estate,55 to 64 years,All family units,Dollars,10584
+2005,Canada,Other real estate,55 to 64 years,All family units,Dollars,21160
+2012,Canada,Other real estate,55 to 64 years,All family units,Dollars,35393
+1999,Canada,Other real estate,65 years and older,All family units,Dollars,3729
+2005,Canada,Other real estate,65 years and older,All family units,Dollars,F
+2012,Canada,Other real estate,65 years and older,All family units,Dollars,14117
+1999,Canada,Line of credit,All ages,All family units,Dollars,33220
+2005,Canada,Line of credit,All ages,All family units,Dollars,77492
+2012,Canada,Line of credit,All ages,All family units,Dollars,144946
+1999,Canada,Line of credit,Under 65 years,All family units,Dollars,31022
+2005,Canada,Line of credit,Under 65 years,All family units,Dollars,72415
+2012,Canada,Line of credit,Under 65 years,All family units,Dollars,124418
+1999,Canada,Line of credit,Under 35 years,All family units,Dollars,4790
+2005,Canada,Line of credit,Under 35 years,All family units,Dollars,11942
+2012,Canada,Line of credit,Under 35 years,All family units,Dollars,16159
+1999,Canada,Line of credit,35 to 44 years,All family units,Dollars,9305
+2005,Canada,Line of credit,35 to 44 years,All family units,Dollars,19528
+2012,Canada,Line of credit,35 to 44 years,All family units,Dollars,34114
+1999,Canada,Line of credit,45 to 54 years,All family units,Dollars,12324
+2005,Canada,Line of credit,45 to 54 years,All family units,Dollars,26108
+2012,Canada,Line of credit,45 to 54 years,All family units,Dollars,41717
+1999,Canada,Line of credit,55 to 64 years,All family units,Dollars,4604
+2005,Canada,Line of credit,55 to 64 years,All family units,Dollars,14837
+2012,Canada,Line of credit,55 to 64 years,All family units,Dollars,32429
+1999,Canada,Line of credit,65 years and older,All family units,Dollars,2198
+2005,Canada,Line of credit,65 years and older,All family units,Dollars,5076
+2012,Canada,Line of credit,65 years and older,All family units,Dollars,20528
+1999,Canada,Credit card and installment debt,All ages,All family units,Dollars,18507
+2005,Canada,Credit card and installment debt,All ages,All family units,Dollars,29316
+2012,Canada,Credit card and installment debt,All ages,All family units,Dollars,35321
+1999,Canada,Credit card and installment debt,Under 65 years,All family units,Dollars,17524
+2005,Canada,Credit card and installment debt,Under 65 years,All family units,Dollars,26302
+2012,Canada,Credit card and installment debt,Under 65 years,All family units,Dollars,31994
+1999,Canada,Credit card and installment debt,Under 35 years,All family units,Dollars,4988
+2005,Canada,Credit card and installment debt,Under 35 years,All family units,Dollars,5244
+2012,Canada,Credit card and installment debt,Under 35 years,All family units,Dollars,7009
+1999,Canada,Credit card and installment debt,35 to 44 years,All family units,Dollars,6568
+2005,Canada,Credit card and installment debt,35 to 44 years,All family units,Dollars,9234
+2012,Canada,Credit card and installment debt,35 to 44 years,All family units,Dollars,7517
+1999,Canada,Credit card and installment debt,45 to 54 years,All family units,Dollars,4028
+2005,Canada,Credit card and installment debt,45 to 54 years,All family units,Dollars,7322
+2012,Canada,Credit card and installment debt,45 to 54 years,All family units,Dollars,9452
+1999,Canada,Credit card and installment debt,55 to 64 years,All family units,Dollars,1939
+2005,Canada,Credit card and installment debt,55 to 64 years,All family units,Dollars,4502
+2012,Canada,Credit card and installment debt,55 to 64 years,All family units,Dollars,8016
+1999,Canada,Credit card and installment debt,65 years and older,All family units,Dollars,983
+2005,Canada,Credit card and installment debt,65 years and older,All family units,Dollars,F
+2012,Canada,Credit card and installment debt,65 years and older,All family units,Dollars,3327
+1999,Canada,Student loans,All ages,All family units,Dollars,19623
+2005,Canada,Student loans,All ages,All family units,Dollars,22718
+2012,Canada,Student loans,All ages,All family units,Dollars,28272
+1999,Canada,Student loans,Under 65 years,All family units,Dollars,19303
+2005,Canada,Student loans,Under 65 years,All family units,Dollars,22561
+2012,Canada,Student loans,Under 65 years,All family units,Dollars,27992
+1999,Canada,Student loans,Under 35 years,All family units,Dollars,10949
+2005,Canada,Student loans,Under 35 years,All family units,Dollars,12775
+2012,Canada,Student loans,Under 35 years,All family units,Dollars,15815
+1999,Canada,Student loans,35 to 44 years,All family units,Dollars,3413
+2005,Canada,Student loans,35 to 44 years,All family units,Dollars,4004
+2012,Canada,Student loans,35 to 44 years,All family units,Dollars,4608
+1999,Canada,Student loans,45 to 54 years,All family units,Dollars,4082
+2005,Canada,Student loans,45 to 54 years,All family units,Dollars,3817
+2012,Canada,Student loans,45 to 54 years,All family units,Dollars,4458
+1999,Canada,Student loans,55 to 64 years,All family units,Dollars,860
+2005,Canada,Student loans,55 to 64 years,All family units,Dollars,1964
+2012,Canada,Student loans,55 to 64 years,All family units,Dollars,3111
+1999,Canada,Student loans,65 years and older,All family units,Dollars,F
+2005,Canada,Student loans,65 years and older,All family units,Dollars,F
+2012,Canada,Student loans,65 years and older,All family units,Dollars,F
+1999,Canada,Vehicle loans,All ages,All family units,Dollars,37093
+2005,Canada,Vehicle loans,All ages,All family units,Dollars,52439
+2012,Canada,Vehicle loans,All ages,All family units,Dollars,75814
+1999,Canada,Vehicle loans,Under 65 years,All family units,Dollars,35435
+2005,Canada,Vehicle loans,Under 65 years,All family units,Dollars,49319
+2012,Canada,Vehicle loans,Under 65 years,All family units,Dollars,69039
+1999,Canada,Vehicle loans,Under 35 years,All family units,Dollars,11225
+2005,Canada,Vehicle loans,Under 35 years,All family units,Dollars,12113
+2012,Canada,Vehicle loans,Under 35 years,All family units,Dollars,16999
+1999,Canada,Vehicle loans,35 to 44 years,All family units,Dollars,11745
+2005,Canada,Vehicle loans,35 to 44 years,All family units,Dollars,14286
+2012,Canada,Vehicle loans,35 to 44 years,All family units,Dollars,19345
+1999,Canada,Vehicle loans,45 to 54 years,All family units,Dollars,8754
+2005,Canada,Vehicle loans,45 to 54 years,All family units,Dollars,15330
+2012,Canada,Vehicle loans,45 to 54 years,All family units,Dollars,18718
+1999,Canada,Vehicle loans,55 to 64 years,All family units,Dollars,3710
+2005,Canada,Vehicle loans,55 to 64 years,All family units,Dollars,7590
+2012,Canada,Vehicle loans,55 to 64 years,All family units,Dollars,13978
+1999,Canada,Vehicle loans,65 years and older,All family units,Dollars,1658
+2005,Canada,Vehicle loans,65 years and older,All family units,Dollars,3120
+2012,Canada,Vehicle loans,65 years and older,All family units,Dollars,6775
+1999,Canada,Other debt,All ages,All family units,Dollars,24096
+2005,Canada,Other debt,All ages,All family units,Dollars,31909
+2012,Canada,Other debt,All ages,All family units,Dollars,22908
+1999,Canada,Other debt,Under 65 years,All family units,Dollars,23031
+2005,Canada,Other debt,Under 65 years,All family units,Dollars,30155
+2012,Canada,Other debt,Under 65 years,All family units,Dollars,20506
+1999,Canada,Other debt,Under 35 years,All family units,Dollars,5399
+2005,Canada,Other debt,Under 35 years,All family units,Dollars,7863
+2012,Canada,Other debt,Under 35 years,All family units,Dollars,4165
+1999,Canada,Other debt,35 to 44 years,All family units,Dollars,8090
+2005,Canada,Other debt,35 to 44 years,All family units,Dollars,9266
+2012,Canada,Other debt,35 to 44 years,All family units,Dollars,6108
+1999,Canada,Other debt,45 to 54 years,All family units,Dollars,6645
+2005,Canada,Other debt,45 to 54 years,All family units,Dollars,9570
+2012,Canada,Other debt,45 to 54 years,All family units,Dollars,4452
+1999,Canada,Other debt,55 to 64 years,All family units,Dollars,2896
+2005,Canada,Other debt,55 to 64 years,All family units,Dollars,3455
+2012,Canada,Other debt,55 to 64 years,All family units,Dollars,F
+1999,Canada,Other debt,65 years and older,All family units,Dollars,1065
+2005,Canada,Other debt,65 years and older,All family units,Dollars,F
+2012,Canada,Other debt,65 years and older,All family units,Dollars,2402
+1999,Canada,Net Worth (assets less debts),All ages,All family units,Dollars,3903014
+0001,Canada,Net Worth (assets less debts),All ages,All family units,Dollars,5530509
+2012,Canada,Net Worth (assets less debts),All ages,All family units,Dollars,8073585
+1999,Canada,Net Worth (assets less debts),Under 65 years,All family units,Dollars,2936167
+1999,Canada,Net Worth (assets less debts),Under 35 years,All family units,Dollars,309022
+2005,Canada,Net Worth (assets less debts),Under 35 years,All family units,Dollars,293393
+2012,Canada,Net Worth (assets less debts),Under 35 years,All family units,Dollars,523943
+1999,Canada,Net Worth (assets less debts),35 to 44 years,All family units,Dollars,763841
+2005,Canada,Net Worth (assets less debts),35 to 44 years,All family units,Dollars,1008070
+2012,Canada,Net Worth (assets less debts),35 to 44 years,All family units,Dollars,1056173
+1999,Canada,Net Worth (assets less debts),45 to 54 years,All family units,Dollars,1010672
+2005,Canada,Net Worth (assets less debts),45 to 54 years,All family units,Dollars,1471477
+2012,Canada,Net Worth (assets less debts),45 to 54 years,All family units,Dollars,2014041
+1999,Canada,Net Worth (assets less debts),55 to 64 years,All family units,Dollars,852631
+2005,Canada,Net Worth (assets less debts),55 to 64 years,All family units,Dollars,1430926
+2012,Canada,Net Worth (assets less debts),55 to 64 years,All family units,Dollars,2298198
+1999,Canada,Net Worth (assets less debts),65 years and older,All family units,Dollars,966847
+2005,Canada,Net Worth (assets less debts),65 years and older,All family units,Dollars,1326644
+2012,Canada,Net Worth (assets less debts),65 years and older,All family units,Dollars,2181230
