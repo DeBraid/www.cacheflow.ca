@@ -15,7 +15,7 @@ var arcs = [
           "x": 45,
           "dy": -15,
           "text": "Github",
-          "url": "https://github.com/DeBraid?tab=repositories"
+          "url": "https://github.com/DeBraid"
         },
         {
           "id": 3,
