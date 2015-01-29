@@ -21,7 +21,7 @@ d3.csv("kick.csv", function (data){
           return {x: d.Category, y: +d[priceRange]};
         });
     }));
-console.log(layers);
+    
     var yGroupMax = d3.max(layers, function(layer) { return d3.max(layer, function(d) { return d.y; }); });
     var yStackMax = d3.max(layers, function(layer) { return d3.max(layer, function(d) { return d.y0 + d.y; }); });
 
@@ -161,7 +161,7 @@ console.log(layers);
         .on("mousemove", function(d) {
           var xPosition = d3.mouse(this)[0] - 15;
           var yPosition = d3.mouse(this)[1] - 25;
-          console.log(xPosition);
+          // console.log(xPosition);
           tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
           tooltip.select("text").text("hello world");
         });
