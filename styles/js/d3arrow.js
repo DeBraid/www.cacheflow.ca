@@ -47,7 +47,7 @@ d3.selectAll("#svg-arrow, .arrow, #arrow-cont")
               
                   $('html, body').animate({
                       
-                      scrollTop: $("#devocracy").offset().top
+                      scrollTop: $("#show-cv").offset().top
                   
                   }, 100);
             }
